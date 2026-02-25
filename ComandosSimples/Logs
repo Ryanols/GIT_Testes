@@ -1,0 +1,42 @@
+Para filtrar commits por autor:
+
+git log --author="Nome do Autor"
+
+Mostra apenas os commits feitos por aquele autor específico.
+
+Para filtrar commits antes de uma data específica:
+
+git log --before="YYYY-MM-DD"
+
+Mostra commits feitos antes da data informada.
+
+Exemplo:
+
+git log --before="2024-01-01"
+
+Para ver commits que afetaram uma pasta específica:
+
+git log nomeDaPasta/
+
+Mostra apenas commits relacionados àquela pasta.
+
+Para ver um resumo dos commits agrupados por autor:
+
+git shortlog
+
+Mostra os commits organizados por autor.
+
+Para ver um resumo com número de commits por autor:
+
+git shortlog -sn
+
+O -s mostra apenas a quantidade de commits.
+O -n organiza do maior número para o menor.
+
+Resumo rápido:
+
+git log --author → filtra por autor
+git log --before → filtra por data
+git log pasta/ → filtra por pasta
+git shortlog → resumo por autor
+git shortlog -sn → quantidade de commits por autor
