@@ -1,0 +1,42 @@
+Se você fez um commit errado ou esqueceu de adicionar algo (por exemplo, o ano), você pode corrigir o último commit usando --amend.
+
+Primeiro faça a correção no arquivo.
+
+Depois adicione ao Stage:
+
+git add nomeDoArquivo
+
+Em seguida use:
+
+git commit --amend -m "Nova mensagem corrigida"
+
+O --amend altera o último commit feito.
+Ele substitui o commit anterior pelo novo commit corrigido.
+
+Para ver todos os commits já feitos no projeto:
+
+git log
+
+Mostra os commits do mais recente para o mais antigo.
+
+Para ver uma quantidade específica de commits:
+
+git log -3
+
+(Substitua o número pela quantidade que quiser.)
+
+Para ver os commits resumidos em uma linha:
+
+git log --oneline
+
+Para ver a organização das branches em formato de gráfico:
+
+git log --graph
+
+Resumo rápido:
+
+git commit --amend → corrige o último commit
+git log → mostra todos os commits
+git log -numero → mostra quantidade específica
+git log --oneline → mostra resumido
+git log --graph → mostra gráfico das branches 
