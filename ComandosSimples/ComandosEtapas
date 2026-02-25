@@ -1,0 +1,34 @@
+O comando git add serve para adicionar arquivos do Working Directory para o Stage (área de preparação). Isso significa que você está escolhendo quais arquivos 
+irão para o próximo commit.
+
+Para adicionar um arquivo específico:
+
+git add nomeDoArquivo
+
+Para adicionar todos os arquivos novos e modificados da pasta atual:
+
+git add .
+
+Para adicionar tudo (arquivos novos, modificados e também registrar exclusões):
+
+git add -A
+
+Também é possível adicionar arquivos por extensão:
+
+git add *.css
+
+Isso adiciona todos os arquivos com extensão .css.
+
+Se você adicionou um arquivo por engano e quer remover do Stage, use:
+
+git reset nomeDoArquivo
+
+Isso remove o arquivo do Stage, mas não apaga ele do seu computador. Ele apenas volta para a área de trabalho.
+
+Resumo simples:
+
+git add → envia para o Stage
+git add . → adiciona tudo da pasta atual
+git add -A → adiciona tudo (inclusive exclusões)
+git add *.extensao → adiciona por tipo
+git reset nome → remove do Stage
