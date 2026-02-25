@@ -1,0 +1,13 @@
+Configurando o git ...
+Antes de começarmos a fazer nossos comandos temos que dizer a ele quem nós somos. Isso é muito importante por que toda vez que vamos fazer algum commit, o git registra o nosso 
+nome de usuário quanto como o email que foi cadastrado, ficando gravadas no historico do nosso projeto. 
+
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@email.com"
+
+--global indica que as configurações feitas vão servir para todos os projetos do nosso computador. Não é necessário fazer isso toda vez em nossa máquina.
+
+git config --global --list
+Mostra todas as configurações globais que já salvamos em nosso git
+
+
