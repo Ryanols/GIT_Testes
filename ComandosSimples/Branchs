@@ -1,0 +1,48 @@
+Branches são ramificações do repositório.
+
+Imagine que você está em uma estrada principal (branch main).
+De repente aparece outra estrada diferente.
+Você entra nela, mas a estrada principal continua existindo.
+Ela não muda só porque você saiu dela.
+
+É exatamente assim que funcionam as branches no Git.
+
+Elas servem para você fazer alterações separadas sem mexer na versão principal.
+Se algo der errado, você pode simplesmente voltar para a branch anterior.
+
+Para ver em qual branch você está:
+
+git branch
+
+A branch atual aparece com um * ao lado.
+
+Para criar uma nova branch:
+
+git branch nomeDaBranch
+
+Para deletar uma branch:
+
+git branch -D nomeDaBranch
+
+Para criar e já mudar para a nova branch:
+
+git checkout -b nomeDaBranch
+
+Para mudar de branch:
+
+git checkout nomeDaBranch
+
+Para ver a diferença entre branches:
+
+git diff nomeBranch1 nomeBranch2
+
+Mostra o que mudou de uma branch para outra.
+
+Resumo rápido:
+
+git branch → mostra branches
+git branch nome → cria branch
+git branch -D nome → deleta branch
+git checkout nome → troca de branch
+git checkout -b nome → cria e já troca
+git diff branch1 branch2 → mostra diferenças
