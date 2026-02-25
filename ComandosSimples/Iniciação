@@ -1,0 +1,19 @@
+git init serve para iniciar um repositório em uma pasta.
+Quando você usa esse comando, está dizendo para o Git começar a controlar aquela pasta. A partir disso, você pode salvar versões do seu projeto (commits).
+Use quando estiver começando um projeto do zero.
+
+Comando:
+
+git init
+
+git clone serve para copiar um repositório que já existe, normalmente do GitHub.
+Ele baixa todos os arquivos e todo o histórico do projeto para o seu computador.
+Use quando o projeto já está pronto e você quer uma cópia dele.
+
+Comando:
+
+git clone link-do-repositorio
+
+Resumo fácil de lembrar:
+init = começar um projeto novo
+clone = copiar um projeto que já existe
