@@ -1,0 +1,11 @@
+Temos alguns comandos auxiliáres que facilitam nossa forma de trabalhar.
+
+O comando dir serve para listar todos os arquivos e pastas que existem em um diretorio/pasta em que estamos trabalhando. 
+O comando touch serve para criar arquivos pelo terminal. Temos que digitar touch (nomeArquivo).extensão arquivo.
+Cd serve para acessar pastas
+Já o mkdir nos ajuda com a criação novas pastas
+Como o rmdir apaga pastas vazias, mas somente pastas vazias
+O del apaga arquivos
+Cls limpa os comandos que ja escrevemos no cmd
+O comando tree nos da uma forma diferente de visualizar os nosso arquivos, nos mostrando em formato de arquitetura em arvore
+
