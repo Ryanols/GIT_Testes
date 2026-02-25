@@ -1,0 +1,35 @@
+Quando um arquivo está no Stage e você faz uma nova alteração nele, ele fica diferente da versão que estava preparada para o commit.
+
+Se você quiser descartar essa alteração e voltar para a versão anterior, use:
+
+git restore nomeDoArquivo
+
+Esse comando desfaz a modificação feita e volta o arquivo para o estado anterior.
+
+O commit serve para salvar oficialmente uma versão do projeto no repositório.
+Ele pega tudo que está no Stage e cria um registro permanente no histórico.
+
+Comando básico:
+
+git commit -m "Mensagem obrigatória"
+
+O -m serve para adicionar a mensagem do commit.
+Essa mensagem explica o que foi feito.
+
+Depois do commit, o Stage fica limpo.
+
+Se você quiser adicionar e fazer commit ao mesmo tempo, pode usar:
+
+git commit -a -m "mensagem"
+
+O -a adiciona automaticamente arquivos que já estavam sendo monitorados e que foram modificados.
+
+Importante:
+O -a não adiciona arquivos novos.
+Arquivos novos ainda precisam de git add.
+
+Resumo simples:
+
+git restore → desfaz alteração
+git commit -m → salva o que está no Stage
+git commit -a -m → adiciona modificações e já salva (menos arquivos novos)
