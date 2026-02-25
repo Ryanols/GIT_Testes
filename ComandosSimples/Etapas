@@ -1,0 +1,26 @@
+No Git existem três etapas principais antes de salvar uma alteração no projeto.
+
+Primeiro temos o Working Directory.
+É a área de trabalho. Aqui você pode criar, editar ou apagar arquivos livremente. Nada ainda foi salvo no histórico do Git.
+
+Depois temos o Stage (Staging Area).
+É a área de preparação. Quando você usa o comando git add, está escolhendo quais arquivos estão prontos para serem salvos na próxima versão.
+
+Exemplo:
+
+git add arquivo.txt
+
+Por último temos o Commit.
+Quando você usa git commit, o Git pega tudo que está no Stage e salva como uma nova versão do projeto dentro do repositório.
+
+Exemplo:
+
+git commit -m "mensagem explicando o que foi feito"
+
+Resumo simples para lembrar:
+
+Working Directory → você modifica os arquivos
+Stage → você seleciona o que vai ser salvo
+Commit → você salva oficialmente no repositório
+
+Pense assim: você edita, depois separa o que está pronto, e por fim salva como uma nova versão.
